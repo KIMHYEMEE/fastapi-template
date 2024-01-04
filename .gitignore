@@ -1,0 +1,5 @@
+# python cache file
+*.pyc
+
+# temp saved data
+*.pickle
