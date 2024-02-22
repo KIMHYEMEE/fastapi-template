@@ -45,7 +45,11 @@ Make sure you have the following prerequisites installed on your machine:
    ```
 
 ### Usage
-Provide instructions on how to use the project, including any configuration steps, running the application, or interacting with the API.
+
+1. Run the application:
+   ```bash
+   uvicorn main:app -- reload
+   ```
 
 ### Testing
 Explain how to run tests and any testing strategies.
@@ -55,15 +59,10 @@ pytest
 
 ## Documentation
 
-Dive into the project's manual to unveil the secrets of:
+Find the detailed documentation in the [docs](app/docs) directory:
 
-- **API Usage**: How to command the API like a pro.
-- **Project Architecture**: Peek under the hood and understand the magic.
-
-Find the detailed documentation in the [docs](./docs) directory:
-
-- [API Usage](./docs/api_docs.md)
-- [Project Architecture](./docs/project_architecture.md)
+- [API Usage](app/docs/api_docs.md)
+- [Project Architecture](app/docs/project_architecture.md)
 
 ## Liscense
 NA
